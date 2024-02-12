@@ -11,6 +11,9 @@ to make a bridge between [CMake](https://cmake.org/) and the Python build system
 
 The Python bindings are built with `nanobind <https://nanobind.readthedocs.io/en/latest/index.html>`_.
 
+The template builds over `nanobind_example <https://github.com/wjakob/nanobind_example>`_
+plus a set of personal preferences that can be easily disabled or re-configured.
+
 # Installation
 
 Since there is no release yet, the only installation
