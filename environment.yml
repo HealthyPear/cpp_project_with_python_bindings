@@ -1,0 +1,28 @@
+name: my-package-dev
+channels:
+  - conda-forge
+dependencies:
+  # Core
+  - python
+  - pip
+  - nanobind
+  # Developing
+  - pre-commit
+  - ruff
+  # Testing
+  - pytest
+  # Documentation
+  - sphinx
+  - breathe
+  - doxygen
+  - pydata-sphinx-theme
+  - graphviz
+  - rstcheck
+  - sphinx-copybutton
+  - sphinx-autoapi>=3.0.0
+  - sphinx-design
+  - sphinxcontrib-towncrier
+  - towncrier
+  - pip:
+      - exhale>=0.3.7
+      - nanobind-stubgen
