@@ -1,0 +1,7 @@
+build
+
+src/my_package/_version.py
+
+docs/build
+docs/api/c++
+docs/api/python/my_package
