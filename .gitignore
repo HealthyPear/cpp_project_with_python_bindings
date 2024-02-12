@@ -1,5 +1,7 @@
 build
 
+__pycache__
+
 src/my_package/_version.py
 
 docs/build
