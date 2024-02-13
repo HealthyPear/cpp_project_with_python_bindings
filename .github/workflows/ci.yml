@@ -55,7 +55,9 @@ jobs:
         sudo apt update --yes && sudo apt install --yes doxygen
         pip install -e .[docs]
     - name: Build
-      run: make -C docs html
+      run: |
+        make -C docs html
+        touch docs/build/html/.nojekyll
     - name: Deploy to github pages
       # only run on push to main
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
