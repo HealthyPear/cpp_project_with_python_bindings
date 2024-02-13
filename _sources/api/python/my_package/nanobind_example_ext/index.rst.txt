@@ -1,0 +1,24 @@
+:py:mod:`nanobind_example_ext`
+==============================
+
+.. py:module:: nanobind_example_ext
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   nanobind_example_ext.add
+
+
+
+.. py:function:: add(arg0: int, arg1: int, /) -> int
+
+   This function adds two numbers and increments if only one is provided.
+
+

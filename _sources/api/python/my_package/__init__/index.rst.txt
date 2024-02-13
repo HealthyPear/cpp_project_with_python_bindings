@@ -1,0 +1,24 @@
+:py:mod:`__init__`
+==================
+
+.. py:module:: __init__
+
+
+Package Contents
+----------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   __init__.add
+
+
+
+.. py:function:: add(arg0: int, arg1: int, /) -> int
+
+   This function adds two numbers and increments if only one is provided.
+
+
