@@ -15,8 +15,6 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 from pathlib import Path
-import tomllib
-
 import sys
 
 if sys.version_info < (3, 11):
@@ -50,15 +48,9 @@ release = version
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinx.ext.graphviz",
-    "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
-    "sphinx.ext.autosummary",
-    "sphinx.ext.napoleon",
     "sphinx_copybutton",
     "sphinx.ext.viewcode",
-    "sphinx_automodapi.automodapi",
-    "sphinx_exec_code",
     "breathe",
     "exhale",
     "autoapi.extension",
