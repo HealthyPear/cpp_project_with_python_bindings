@@ -1,7 +1,6 @@
 # my-package
 
-![ci](https://github.com/github/docs/actions/workflows/ci.yml/badge.svg?branch=main)
-![deploy](https://github.com/github/docs/actions/workflows/deploy.yml/badge.svg?branch=main)
+[![CI](https://github.com/HealthyPear/cpp_project_with_python_bindings/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/HealthyPear/cpp_project_with_python_bindings/actions/workflows/ci.yml)
 
 This project template is designed for C++ projects providing Python3 bindings.
 
@@ -69,3 +68,7 @@ Linting and formatting are performed using
 
 Testing for the Python interface is performed with [pytest](https://docs.pytest.org/en/latest/)
 while that for the C++ interface needs to be added.
+
+# GitHub Actions
+
+- Continuous integration pipeline to test ``pip`` installation and Python testing suite
